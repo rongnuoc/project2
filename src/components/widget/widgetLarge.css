@@ -1,0 +1,32 @@
+.widgetLarge {
+    flex: 2;
+}
+
+.widgetLargeButton {
+    display: flex;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+.widgetLargeButton.Pending {
+    background-color: aqua;
+}
+.widgetLargeButton.Inprogress {
+    background-color: chocolate;
+}
+.widgetLargeButton.Completed {
+    background-color: green;
+}
+
+.WidgetLargeTable {
+    width: 100%;
+    border-spacing: 20px;
+    text-align: left;
+}
+
+.widgetLargeTableInfo {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredItem {
+    flex: 1;
+    margin: 20px 0px 0px 0px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 6px 15px -5px #000000; 
+    box-shadow: 5px 6px 15px -5px #000000;
+}
+
+.featureTitle {
+    font-size: 20px;
+}
+
+.featureBody {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featureNumber {
+    font-size: 30px;
+    font-weight: 600;
+}

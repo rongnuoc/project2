@@ -10,3 +10,32 @@
 .others {
   flex: 4;
 }
+
+.boxShadow {
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 5px 6px 15px -5px #000000; 
+  box-shadow: 5px 6px 15px -5px #000000;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.app-list {
+  padding: 0px;
+  margin: 20px 0px;
+  list-style: none;
+}
+
+.app-list-item {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.widgetTitle {
+  font-size: 32px;
+  font-weight: 600;
+}

@@ -1,0 +1,29 @@
+.widgetSmall {
+    flex: 1;
+}
+
+
+
+.widgetSmallImg {
+    font: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmallUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmallTitle,  .widgetSmallGender{
+    font-weight: 300;
+}
+
+.widgetSmallButton {
+    display: flex;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+}
