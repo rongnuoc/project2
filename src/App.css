@@ -39,3 +39,30 @@
   font-size: 32px;
   font-weight: 600;
 }
+
+.buttonDetailPage {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  cursor: pointer;
+  color: white;
+  margin-right: 10px;
+}
+
+.buttonDetailPage:hover{
+  background-color: burlywood;
+  color: brown;
+}
+
+.link {
+  color: #555;
+  text-decoration: none; 
+}
+
+.detailTopContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

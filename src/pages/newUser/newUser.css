@@ -1,0 +1,30 @@
+.newUser {
+    flex: 4;
+}
+
+.newUserForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newUserInput {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+}
+
+.newUserInput > input {
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newUserInput > label {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.buttonSubmitForm {
+    width: 100px !important;
+}
